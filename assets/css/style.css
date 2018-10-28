@@ -199,21 +199,24 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(43, 58, 66, 0.5);
+    background:rgba(43, 58, 66, 0.75);
     width:100%;
     height:100%;
 }
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
+    color: #EFEFEF;
     font-size: 54px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
 }
 .header-text h2 span {color: #FF530D;}
+
+.single-about-txt h3 span {color: #FF530D;}
+
 .header-text p {
-    color: #fff;
+    color: #EFEFEF;
     font-size: 20px;
     font-weight: 300;
     margin: 30px 0 60px;
@@ -267,15 +270,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;box-shadow: 0 5px 20px #0e19504d;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
+    width: 102.5%;
     height:  100%;
-    background: rgba(31,44,108,.3);
+    background: rgba(63, 87, 101, 0.2);
 }
 .single-about-img img {
     max-width: 500px;
@@ -288,9 +291,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
+    width: 102.5%;
     height: 90px;
-    background: #1f2c6c;
+    background: #3F5765;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -814,8 +817,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#FF530D;
+	border:1px solid #FF530D;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -826,8 +829,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #FF530D;
+	border:1px solid #FF530D;
 }
 
 #scroll-Top  .return-to-top i{
