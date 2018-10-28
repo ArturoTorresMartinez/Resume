@@ -59,7 +59,6 @@ h1,h2,h3,h4,h5,h6 {
 	color:#43485c;
     font-size: 16px;
 	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
 }
 p {
 	margin: 0;
@@ -122,7 +121,7 @@ nav.navbar.bootsnav {
     color: #d92cf9;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 18px 0px 0px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -190,7 +189,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/bgmain.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -200,7 +199,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(43, 58, 66, 0.5);
     width:100%;
     height:100%;
 }
@@ -210,15 +209,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     color: #fff;
     font-size: 54px;
     font-weight: 700;
-    text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+.header-text h2 span {color: #FF530D;}
 .header-text p {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
-    text-transform: uppercase;
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
@@ -227,10 +224,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height: 60px;
     line-height: 60px;
     border-radius: 3px;
-    text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    background: #FF530D;
+    border:1px solid #FF530D;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -238,7 +234,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#b33300;border: 1px solid #b33300;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -377,7 +373,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
-    text-transform: uppercase;
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
