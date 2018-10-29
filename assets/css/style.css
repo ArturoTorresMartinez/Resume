@@ -199,29 +199,33 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(43, 58, 66, 0.75);
+    background:hsla(0, 0%, 100%, 0.3);
     width:100%;
     height:100%;
 }
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #EFEFEF;
+    color: #303030;
     font-size: 50px;
     font-weight: 200;
     line-height: 1.2;
 }
+.header-text h2:hover{ color: #000; font-weight: 299;}
+
 .header-text h2 span {color: #FF530D;}
 
 .single-about-txt h3 span {color: #FF530D;}
 
 .header-text p {
-    color: #EFEFEF;
+    color: #303030d7;
     font-size: 20px;
     font-weight: 300;
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
+
+
 .header-text a {
     width: 200px;
     height: 60px;
@@ -237,7 +241,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#b33300;border: 1px solid #b33300;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#981fad;border: 1px solid #981fad;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -293,7 +297,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     left: 0;
     width: 102.5%;
     height: 90px;
-    background: #3F5765;
+    background: #420e4bb2;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -803,6 +807,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 38px 0;
 }
 .hm-footer-copyright p a {color: #888ea5;}
+
 /*===============================
     Scroll Top
 ===============================*/
