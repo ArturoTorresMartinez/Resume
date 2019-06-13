@@ -336,6 +336,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         4.  About
 --------------------------------------*/
 .about {
+    background: #f9fbfd;
     padding: 50px 0 100px;
 }
 
@@ -377,7 +378,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-why-add-info {
-    margin: 35px 25%;
+    margin: 25px 25%;
     align-items: center;
 }
 
